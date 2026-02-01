@@ -1,0 +1,266 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+.custom-home-class {
+  #VPContent {
+    .VPHome {
+      padding-bottom: 24px !important;
+      margin-bottom: 24px !important;
+
+      div.container {
+        div.main {
+          order: 0 !important;
+
+          // 主要说明
+          .text {
+            font-size: 30px !important;
+            line-height: 1.25 !important;
+
+            a.english-website {
+              color: #3451b2;
+            }
+
+            @media screen and (max-width: 500px) {
+              font-size: 20px !important;
+            }
+          }
+          // 灰色说明
+          .tagline {
+            font-size: 20px !important;
+            line-height: 1.25 !important;
+
+            @media screen and (max-width: 500px) {
+              font-size: 15px !important;
+            }
+          }
+          // 下载按钮组
+          .actions {
+            .action {
+              @media screen and (max-width: 500px) {
+                padding: 4px !important;
+              }
+
+              a {
+                @media screen and (max-width: 500px) {
+                  padding: 0 10px !important;
+                  line-height: 30px !important;
+                  font-size: 12px !important;
+                }
+              }
+            }
+          }
+        }
+
+        div.image {
+          margin: unset !important;
+
+          div.image-container {
+            transform: unset !important;
+
+            // 快捷操作展示图
+            div.image-bg {
+              border-radius: unset !important;
+
+              @media screen and (min-width: 1100px) {
+                width: 524px !important;
+                height: 360px !important;
+                transform: translate(-50%, -38%);
+              }
+
+              @media screen and (min-width: 720px) and (max-width: 1100px) {
+                width: 392px !important;
+                height: 270px !important;
+                transform: translate(-50%, -40%);
+              }
+
+              @media screen and (min-width: 360px) and (max-width: 720px) {
+                width: 300px !important;
+                height: 206px !important;
+                transform: translate(-50%, -50%);
+              }
+            }
+
+            img.image-src {
+              box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.2);
+
+              @media screen and (min-width: 1100px) {
+                border-radius: 20px;
+                max-width: 524px !important;
+                max-height: 360px !important;
+                transform: translate(-50%, -38%);
+              }
+
+              @media screen and (min-width: 720px) and (max-width: 1100px) {
+                border-radius: 16px;
+                max-width: 392px !important;
+                max-height: 270px !important;
+                transform: translate(-50%, -40%);
+              }
+
+              @media screen and (min-width: 360px) and (max-width: 720px) {
+                border-radius: 12px;
+                max-width: 300px !important;
+                max-height: 206px !important;
+                transform: translate(-50%, -50%);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // .VPFeatures.VPHomeFeatures {
+    //   div.container {
+    //     div.items {
+    //       div.item {
+    //         .icon {
+    //           background-color: rgba(0, 0, 0, 0.8);
+    //         }
+    //       }
+    //       div.item:nth-child(1) {
+    //         .icon {
+    //           color: #dfb7ff;
+    //         }
+    //       }
+    //       div.item:nth-child(2) {
+    //         .icon {
+    //           color: #ff9d57;
+    //         }
+    //       }
+    //       div.item:nth-child(3) {
+    //         .icon {
+    //           color: #8bb9ff;
+    //         }
+    //       }
+    //       div.item:nth-child(4) {
+    //         .icon {
+    //           color: #fc4444;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}
+
+footer.VPFooter {
+  padding: 16px !important;
+
+  p.copyright {
+    margin-bottom: 0;
+  }
+}
+
+footer.VPDocFooter {
+  margin-top: 24px !important;
+}
+
+#VPContent {
+  .VPDoc.has-aside {
+    .container {
+      .content {
+        padding-bottom: 24px !important;
+      }
+    }
+  }
+}
+
+// .custom-doc-class {
+// @media (min-width: 1440px) {
+//   .VPDoc:not(.has-sidebar) .container {
+//     max-width: calc(1104px + 200px) !important;
+//   }
+//   .VPDoc:not(.has-sidebar) .content {
+//     max-width: calc(784px + 200px) !important;
+//   }
+// }
+
+// .VPDoc.has-aside .content-container {
+//   max-width: calc(688px + 200px) !important;
+// }
+
+main.main {
+  kbd {
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+  }
+
+  h4 {
+    margin-top: 16px;
+    font-size: 18px;
+    list-style: upper-roman;
+  }
+
+  table {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+  }
+}
+
+#app header {
+  .social-links a.VPSocialLink {
+    width: 36px;
+    height: 36px;
+    svg {
+      width: unset;
+    }
+  }
+}
+
+// chrome
+.btn-chrome-store {
+  background-color: purple;
+  color: white;
+}
+
+// edge
+.btn-edge-store {
+  background-color: green;
+  color: white;
+}
+// safari
+.btn-safari {
+  background-color: blue;
+  color: white;
+}
+// android
+.btn-android {
+  background-color: darkorange;
+  color: white;
+}
+// offline-file
+// .btn-offline-file {
+//   background-color: red;
+//   color: white;
+// }
+
+// 窄屏，顶部按钮
+.VPDocOutlineDropdown button {
+  border: none !important;
+}
+
+.medium-zoom-overlay {
+  z-index: 30;
+}
+
+.medium-zoom-image {
+  z-index: 31;
+}
+
+.ant-message {
+  transform: unset !important;
+}
+
+$imgWidths: 250px, 290px, 300px, 360px, 375px, 480px, 512px, 540px, 600px, 720px;
+@each $imgWidth in $imgWidths {
+  img[src*="#max-width-#{$imgWidth}"] {
+    max-width: min($imgWidth, 100%);
+  }
+}

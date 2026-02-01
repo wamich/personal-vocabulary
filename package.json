@@ -1,0 +1,39 @@
+{
+  "name": "personal-vocabulary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "4.2.6",
+    "docx-preview": "^0.3.7",
+    "epubjs": "^0.3.93",
+    "github-markdown-css": "^5.8.1",
+    "jszip": "^3.10.1",
+    "markdown-it": "^14.1.0",
+    "medium-zoom": "^1.1.0",
+    "query-string": "^9.3.1",
+    "vue": "^3.5.27"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^25.1.0",
+    "@vue/language-plugin-pug": "^3.2.4",
+    "pug": "^3.0.3",
+    "sass-embedded": "^1.97.3",
+    "typescript": "~5.9.3",
+    "unocss": "^66.6.0",
+    "vite": "^7.3.1",
+    "vitepress": "1.6.4",
+    "vue-tsc": "^3.2.4"
+  }
+}
