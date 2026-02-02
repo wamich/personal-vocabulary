@@ -57,7 +57,7 @@ export default defineConfig({
 
   lang: "zh-Hans",
   title: "个人词库",
-  titleTemplate: "高亮/朗读/翻译/直译/语法/Anki(工作经验与技术分享)",
+  titleTemplate: "高亮/朗读/翻译/直译/语法/Anki",
   description: "生词高亮、实时朗读、翻译|直译、词法依赖、语法分析、Anki制卡",
 
   lastUpdated: true,
@@ -217,13 +217,13 @@ export default defineConfig({
 
     socialLinks: [
       {
-        icon: { svg: giteeSvg },
-        link: "https://gitee.com/wamich/personal-vocabulary",
+        icon: "github",
+        link: "https://github.com/wamich/personal-vocabulary",
       },
     ],
 
     footer: {
-      copyright: `Copyright © 2023-${new Date().getFullYear()} | <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2023021618号</a>`,
+      copyright: `Copyright © 2023-${new Date().getFullYear()}`,
     },
 
     lastUpdatedText: "最后更新",
