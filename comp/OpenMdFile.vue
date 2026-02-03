@@ -18,19 +18,48 @@ div(class="md-container")
             p(class="font-bold !leading-6 ant-upload-text") 打开 md 文件
             p(class="!m-0 !leading-6 ant-upload-hint") 点击或拖拽文件至此区域即可
 
+    Card(v-if="!fileOpened" title="四六级真题" class="shadow mt-4" style="background-color: rgba(0, 0, 0, 0.01);")
+      template(#extra)
+        a(href="https://github.com/wamich/english-exem-md" target="_blank" class="font-semibold !text-[#ff6767]") 贡献
+      div(class="flex gap-4")
+        Card(title="CET4" style="width: 300px;")
+          div(class="flex flex-col gap-4")
+            Card(title="2023年12月")
+              div(class="flex justify-between")
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET4/2023.12/cet4-2023-12-1.md')") 第1套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET4/2023.12/cet4-2023-12-2.md')") 第2套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET4/2023.12/cet4-2023-12-3.md')") 第3套
+            Card(title="2023年6月")
+              div(class="flex justify-between")
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET4/2023.06/cet4-2023-06-1.md')") 第1套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET4/2023.06/cet4-2023-06-2.md')") 第2套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET4/2023.06/cet4-2023-06-3.md')") 第3套
+        Card(title="CET6" style="width: 300px;")
+          div(class="flex flex-col gap-4")
+            Card(title="2023年12月")
+              div(class="flex justify-between")
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET6/2023.12/cet6-2023-12-1.md')") 第1套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET6/2023.12/cet6-2023-12-2.md')") 第2套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET6/2023.12/cet6-2023-12-3.md')") 第3套
+            Card(title="2023年06月")
+              div(class="flex justify-between")
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET6/2023.06/cet6-2023-06-1.md')") 第1套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET6/2023.06/cet6-2023-06-2.md')") 第2套
+                a(class="!text-[#8080ff]" @click="fetchExamUrl('/exam/cet46/CET6/2023.06/cet6-2023-06-3.md')") 第3套
+
   Spin(v-show="fileOpened" :spinning="loading")
     div(class="p-6 markdown-body" v-html="markHtml")
 </template>
 
 <script setup lang="ts">
 import { FileMarkdownOutlined } from "@ant-design/icons-vue";
-import { Spin, UploadDragger, message } from "ant-design-vue";
+import { Card, Spin, UploadDragger, message } from "ant-design-vue";
 import darkStyle from "github-markdown-css/github-markdown-dark.css?raw";
 import lightStyle from "github-markdown-css/github-markdown-light.css?raw";
 import markdownit from "markdown-it";
-import queryString from "query-string";
 import { useData } from "vitepress";
 import { onMounted, onUnmounted, ref, watchEffect } from "vue";
+import queryString from "query-string";
 
 const { isDark } = useData();
 

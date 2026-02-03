@@ -1,8 +1,6 @@
 import UnoCSS from "unocss/vite";
 import { DefaultTheme, defineConfig } from "vitepress";
 
-import { giteeSvg } from "./gitee-svg";
-
 const miniSearch: DefaultTheme.LocalSearchOptions["miniSearch"] = {
   options: {
     processTerm: (term) => {
@@ -107,16 +105,16 @@ export default defineConfig({
             target: "_blank",
             link: "/EnglishOnline",
           },
-          {
-            text: "《神奇树屋》分享",
-            target: "_blank",
-            link: "https://gitee.com/wamich/personal-vocabulary/issues/IANRF5",
-          },
-          {
-            text: "《生活大爆炸》分享",
-            target: "_blank",
-            link: "https://gitee.com/wamich/personal-vocabulary/issues/IAMA9D",
-          },
+          // {
+          //   text: "《神奇树屋》分享",
+          //   target: "_blank",
+          //   link: "https://gitee.com/wamich/personal-vocabulary/issues/IANRF5",
+          // },
+          // {
+          //   text: "《生活大爆炸》分享",
+          //   target: "_blank",
+          //   link: "https://gitee.com/wamich/personal-vocabulary/issues/IAMA9D",
+          // },
         ],
       },
       {
@@ -148,7 +146,7 @@ export default defineConfig({
       { text: "隐私", link: "/Privacy" },
       {
         text: "建议",
-        link: "https://gitee.com/wamich/personal-vocabulary/issues",
+        link: "https://github.com/wamich/personal-vocabulary/issues",
       },
       { text: "联系", link: "/Contact" },
     ],

@@ -1,0 +1,3 @@
+[submodule "public/exam/cet46"]
+	path = public/exam/cet46
+	url = https://github.com/wamich/english-exem-md.git
