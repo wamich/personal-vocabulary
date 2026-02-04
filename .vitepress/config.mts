@@ -41,7 +41,8 @@ const zhSearchLocales: DefaultTheme.LocalSearchOptions["locales"] = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/personal-vocabulary/",
+  // github pages 有base前缀，而官网没有
+  base: process.env.DEPLOY_TARGET === "gh" ? "/personal-vocabulary/" : "/",
   vite: {
     plugins: [UnoCSS()],
     css: {

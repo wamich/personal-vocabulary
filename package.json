@@ -4,7 +4,10 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:dev:gh": "DEPLOY_TARGET=gh vitepress dev",
+    "docs:build:gh": "DEPLOY_TARGET=gh vitepress build",
+    "docs:preview": "vitepress preview",
+    "zip": "sh ./scripts/zip.sh"
   },
   "author": "wamich@126.com",
   "dependencies": {
