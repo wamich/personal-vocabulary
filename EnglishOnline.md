@@ -1,5 +1,15 @@
 # 英文 Online
 
+## 初学者
+
+🌍 https://newsforkids.net/
+
+简介：提供新闻，用简单英文讲述，适合儿童及初级学习者阅读当前事件，同时扩展词汇和理解能力。
+
+🌏 https://www.kidsnews.com.au/
+
+简介：儿童新闻网站，有趣且内容明确，覆盖新闻与趣味主题，适合通过阅读了解世界同时练习英文。
+
 ## 国内英文网站
 
 ### [ChinaDaily](https://www.chinadaily.com.cn/)(中国日报)

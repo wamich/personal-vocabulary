@@ -9,7 +9,7 @@ Carousel(
     img(:src="getImgUrl(props.i)")
   div(v-for="(item, idx) in infoArr", :key="item.title")
     h3(
-      class="text-center !mt-0 !text-2xl font-mono" 
+      class="!mt-0 font-mono !text-2xl text-center" 
       :style="{color: item.color}"
     ) {{ item.title }}
     div(class="p-2")
@@ -32,7 +32,7 @@ const infoArr = [
   { title: "查词 & 生词高亮", src: img1, color: "purple" },
   { title: "朗读 & AI 直译", src: img2, color: "orange" },
   { title: "朗读 & 机器翻译 ", src: img3, color: "orange" },
-  { title: "NLP 词法依赖", src: img4, color: "blue" },
+  { title: "NLP 词法依存", src: img4, color: "blue" },
   { title: "AI 语法分析", src: img5, color: "darkred" },
 ];
 

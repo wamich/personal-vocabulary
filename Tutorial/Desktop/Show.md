@@ -30,21 +30,21 @@
 
 ![整句翻译](../../screenshot/content/整句翻译.png){data-zoomable}
 
-## 4. 词法依赖
+## 4. 词法依存
 
 - 直接分析：在**鼠标所指单词**上，按<kbd>D</kbd> 键
 - 选择分析：先<b class="bg-[#1890ff] text-white">选择</b>句子，再按 <kbd>D</kbd> 键
 
-![整句翻译](../../screenshot/content/词法依赖.png){data-zoomable}
+![整句翻译](../../screenshot/content/词法依存.png){data-zoomable}
 
-## 5. 语法分析
+<!-- ## 5. 语法分析
 
 - 直接分析：在**鼠标所指单词**上，按<kbd>F</kbd> 键
 - 选择分析：先<b class="bg-[#1890ff] text-white">选择</b>句子，再按 <kbd>F</kbd> 键
 
-![整句翻译](../../screenshot/content/语法分析.png){data-zoomable}
+![整句翻译](../../screenshot/content/语法分析.png){data-zoomable} -->
 
-## 6. 生词一览
+## 5. 生词一览
 
 - 展示文章中出现的所有生词
 - 可以预习、复习、删除生词

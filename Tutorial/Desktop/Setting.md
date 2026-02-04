@@ -52,48 +52,40 @@
           </div>
           <div><i>注意</i>: 通过插件打开PDF时，仅支持<b class="bg-[#c8c0ff]">背景色</b>+<b class="border-black border-b-[1px]">下划线</b>组合设置。<b class="text-blue-500">字体色</b>对渲染有冲突。</div>
         </li>
-        <li>
-          <b>策略</b>:
-          <ul>
-            <li><b>全文策略</b> 高亮网页内所有单词；</li>
-            <li><b>动态策略</b> 高亮视野范围内的单词。</li>
-          </ul>
-        </li>
       </ul>
     </li>
     <li>
       <div><b>快捷操作</b>:</div>
       <ul>
         <li>
-          <b>电脑端</b>: 采用 <kbd>Space</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>F</kbd> <kbd>Q</kbd> 作为主要快捷键
+          <b>电脑端</b>: 采用 <kbd>Space</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>V</kbd> <kbd>Q</kbd> 作为主要快捷键
           <img width="300" src="../../screenshot/popup/电脑端快捷操作.jpg" />
           <ul>
             <li>主要快捷键:
               <ul>
                 <li><b>A 键</b>: <b>查询单词</b>。在单词上按 <kbd>A</kbd> 键</li>
-                <li><b>空格</b>: <b>增减生词</b>。出现单词释义时，按<kbd>Space</kbd>键</li>
-                <li><b>S 键</b>: <b>机译整句</b>。在单词所在句子上按 <kbd>S</kbd> 键</li>
-                <li><b>D 键</b>: <b>词法依赖</b>。在单词所在句子上按 <kbd>D</kbd> 键</li>
-                <li><b>F 键</b>: <b>语法分析</b>。在单词所在句子上按 <kbd>F</kbd> 键</li>
+                <li><b>S 键</b>: <b>翻译整句</b>。在单词所在句子上按 <kbd>S</kbd> 键</li>
+                <li><b>D 键</b>: <b>词法依存</b>。在单词所在句子上按 <kbd>D</kbd> 键</li>
+                <li><b>V 键</b>: <b>文章摘要</b>。在页面上按 <kbd>V</kbd> 键</li>
+                <li><b>空格</b>: <b>增减生词/切换收藏</b>。出现单词释义或语句翻译时，按<kbd>Space</kbd>键</li>
               </ul>
             </li>
             <li>次要快捷键:
               <ul>
-                <li><b>Z 键</b>: <b>直译整句</b>。在单词所在句子上按 <kbd>Z</kbd> 键</li>
                 <li><b>W 键</b>: <b>翻译上句</b>。在单词所在句子上按 <kbd>W</kbd> 键</li>
                 <li><b>X 键</b>: <b>翻译下句</b>。在单词所在句子上按 <kbd>X</kbd> 键</li>
+                <li><b>R 键</b>: <b>朗读</b>。朗读当前操作的对象：单词、句子</li>
               </ul>
             </li>
           </ul>
         </li>
         <li>
-          <b>移动端</b>: 采用 <kbd>点</kbd> <kbd>右</kbd> <kbd>左</kbd> <kbd>选</kbd> 作为快捷操作
+          <b>移动端</b>: 采用 <kbd>点击</kbd> <kbd>右滑</kbd> <kbd>选择</kbd> 作为快捷操作
           <img width="300" src="../../screenshot/popup/移动端快捷操作.jpg" />
           <ul>
-            <li><b>点</b>: <b>查词</b>。点击单词，查看释义</li>
-            <li><b>右</b>: <b>翻译</b>。向右滑动单词，翻译整句</li>
-            <li><b>左</b>: <b>语法</b>。向左滑动单词，分析语法</li>
-            <li><b>选</b>: <b>兜底</b>。选择文本后，自由选择查词、翻译、语法</li>
+            <li><b>点击</b>: <b>查词</b>。点击单词，查看释义</li>
+            <li><b>右滑</b>: <b>翻译</b>。向右滑动单词，翻译整句</li>
+            <li><b>选择</b>: <b>兜底</b>。选择文本后，自由选择查词、翻译、语法</li>
           </ul>
         </li>
       </ul>

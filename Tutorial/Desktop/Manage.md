@@ -34,7 +34,7 @@
 
 ![词库快筛](../../screenshot/options/词库快筛.png){data-zoomable}
 
-## 3. 个人词库
+<!-- ## 3. 个人词库
 
 - 展示<b>等级内「不认识」的单词</b>
 
@@ -56,9 +56,9 @@
 
 - 提供：**免费**大模型、**本地**(Ollama)大模型、**Kimi** 大模型、**阿里千问**大模型
 
-![语法分析(AI)](<../../screenshot/options/语法分析(AI).png>){data-zoomable}
+![语法分析(AI)](<../../screenshot/options/语法分析(AI).png>){data-zoomable} -->
 
-## 6. 高亮规则
+## 3. 高亮规则
 
 <HighlightRule />
 

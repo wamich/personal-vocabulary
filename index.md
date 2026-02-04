@@ -35,14 +35,14 @@ features:
     details: "自动选择单词，直接展示释义"
     target: "111"
   - icon: S
-    title: 翻译
-    details: "自动选择语句，直接展示翻译"
+    title: 翻译/语法
+    details: "自动选择语句，进行机译、直译、语法分析"
   - icon: D
     title: 词法
-    details: "图形化展示，词汇之间依赖关系"
-  - icon: F
-    title: 语法
-    details: "利用大模型，自动分析语法"
+    details: "图形化展示，词汇之间依存关系"
+  - icon: V
+    title: 摘要
+    details: "利用大模型，自动分析文章摘要"
   - icon:
       src: /ant-highlight.svg
     title: 高亮
