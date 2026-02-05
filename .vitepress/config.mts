@@ -63,7 +63,7 @@ export default defineConfig({
   cleanUrls: true,
 
   head: [
-    ["link", { rel: "icon", href: "/hl.svg" }],
+    ["link", { rel: "icon", href: "./hl.svg" }],
     [
       "script",
       {
@@ -85,7 +85,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: "/hl.svg", width: 24, height: 24 },
+    logo: { src: "./hl.svg", width: 24, height: 24 },
     outline: "deep",
 
     nav: [
