@@ -39,10 +39,30 @@ const zhSearchLocales: DefaultTheme.LocalSearchOptions["locales"] = {
   },
 };
 
+// 不同部署环境不同的配置
+const DeployTargetMap = {
+  // github pages
+  gh: {
+    base: "/personal-vocabulary/",
+    href: "/personal-vocabulary/hl.svg",
+    titleTemplate: "高亮/朗读/翻译/直译/语法/Anki",
+    copyright: `Copyright © 2023-${new Date().getFullYear()}`,
+  },
+  // 官网
+  site: {
+    base: "/",
+    href: "/hl.svg",
+    titleTemplate: "高亮/朗读/翻译/直译/语法/Anki(工作经验与技术分享)",
+    copyright: `Copyright © 2023-${new Date().getFullYear()} | <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2023021618号</a>`,
+  },
+};
+
+const Target = process.env.DEPLOY_TARGET === "gh" ? "gh" : "site";
+const TargetMap = DeployTargetMap[Target];
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // github pages 有base前缀，而官网没有
-  base: process.env.DEPLOY_TARGET === "gh" ? "/personal-vocabulary/" : "/",
+  base: TargetMap.base,
   vite: {
     plugins: [UnoCSS()],
     css: {
@@ -56,14 +76,12 @@ export default defineConfig({
 
   lang: "zh-Hans",
   title: "个人词库",
-  titleTemplate: "高亮/朗读/翻译/直译/语法/Anki",
-  description: "生词高亮、实时朗读、翻译|直译、词法依赖、语法分析、Anki制卡",
-
+  titleTemplate: TargetMap.titleTemplate,
   lastUpdated: true,
   cleanUrls: true,
 
   head: [
-    ["link", { rel: "icon", href: "./hl.svg" }],
+    ["link", { rel: "icon", href: TargetMap.href }],
     [
       "script",
       {
@@ -85,7 +103,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: "./hl.svg", width: 24, height: 24 },
+    logo: { src: "/hl.svg", width: 24, height: 24 },
     outline: "deep",
 
     nav: [
@@ -222,7 +240,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: `Copyright © 2023-${new Date().getFullYear()}`,
+      copyright: TargetMap.copyright,
     },
 
     lastUpdatedText: "最后更新",
