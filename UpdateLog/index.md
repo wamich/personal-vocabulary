@@ -2,9 +2,12 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
-## 0.16.1
+## 0.16.1.1
 
-### 更新
+- Anki 导出的 「生词语境」卡片，正面除了展示单词，还展示语境例句、来源。[@dangyours](https://github.com/wamich/personal-vocabulary/issues/3)
+- **紧急修复**: 登录过期后导致无法使用的 bug。@wx:茗
+
+## 0.16.1
 
 - 自定义 **多提示词**。 例如 **句子**：**意译**、**简写**
   - ![意译](../screenshot/update/0.16/meaning.jpg#max-width-720px){data-zoomable}
