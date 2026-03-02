@@ -54,7 +54,7 @@ features:
   - icon:
       src: /ant-clock.svg
     title: 持续
-    details: "阅读过程中不断完善词库"
+    details: "阅读过程中不断完善个人词库"
   - icon:
       src: /ant-sync.svg
     title: 同步

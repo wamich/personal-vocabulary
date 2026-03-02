@@ -2,6 +2,11 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
+## 0.16.2
+
+- 增加批量删除「生词语境」和「收藏语句」 [@JeckOnly](https://github.com/wamich/personal-vocabulary/issues/7)
+- Anki卡片取消相对位置固定，否则可能出现 “生词语境例句有可能会离单词很远” [@dangyours](https://github.com/wamich/personal-vocabulary/issues/6)
+
 ## 0.16.1.1
 
 - Anki 导出的 「生词语境」卡片，正面除了展示单词，还展示语境例句、来源。[@dangyours](https://github.com/wamich/personal-vocabulary/issues/3)
