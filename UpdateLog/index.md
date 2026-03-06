@@ -2,10 +2,14 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
+## 0.16.3
+
+- 修复Anki中自定义字段同步丢失的bug [@YISSSHJIAAA](https://github.com/wamich/personal-vocabulary/issues/8)
+
 ## 0.16.2
 
 - 增加批量删除「生词语境」和「收藏语句」 [@JeckOnly](https://github.com/wamich/personal-vocabulary/issues/7)
-- Anki卡片取消相对位置固定，否则可能出现 “生词语境例句有可能会离单词很远” [@dangyours](https://github.com/wamich/personal-vocabulary/issues/6)
+- Anki卡片取消 “**相对位置固定**”，可能出现 “生词语境例句有可能会离单词很远” [@dangyours](https://github.com/wamich/personal-vocabulary/issues/6)
 
 ## 0.16.1.1
 
