@@ -2,6 +2,10 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
+## 0.16.4
+
+- 增加翻译拖动，适配dark reader [@pandaQ1](https://github.com/wamich/personal-vocabulary/issues/10)
+
 ## 0.16.3
 
 - 修复Anki中自定义字段同步丢失的bug [@YISSSHJIAAA](https://github.com/wamich/personal-vocabulary/issues/8)
