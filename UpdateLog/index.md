@@ -2,6 +2,11 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
+## 0.16.5
+
+- 与unocss官网样式冲突 [@micaiguai](https://github.com/wamich/personal-vocabulary/issues/12)
+- 生词列表中增加音标显示 [@robin-code](https://github.com/wamich/personal-vocabulary/issues/11)
+
 ## 0.16.4
 
 - 增加翻译拖动，适配dark reader [@pandaQ1](https://github.com/wamich/personal-vocabulary/issues/10)
