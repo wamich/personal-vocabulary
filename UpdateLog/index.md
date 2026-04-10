@@ -2,6 +2,13 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
+## 0.16.6
+
+- 导出 Anki: 增加单词、句子发音，手动点击发音
+- 导出 html: 取消该功能
+- 修复 Youtube 空格键，切换生词和播放视频冲突
+- 增加 查词界面 可以调整宽度
+
 ## 0.16.5
 
 - 与unocss官网样式冲突 [@micaiguai](https://github.com/wamich/personal-vocabulary/issues/12)
