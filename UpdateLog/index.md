@@ -2,12 +2,26 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
+## 0.16.7
+
+- **生词一览** 默认小圆点，降低页面干扰；[@ipeanuts07](https://github.com/wamich/personal-vocabulary/issues/13)、[@f0ith](https://github.com/wamich/personal-vocabulary/issues/16)
+
+  ![收藏语句](../screenshot/update/0.16/btn-overview.gif)
+
+- Popup 弹出页，各项功能**快捷键**的调整方式变为: **拖拽**；
+
+  例如：**网页摘要**由 **V键** 改为 **F键**
+
+  ![收藏语句](../screenshot/update/0.16/keyboard-drag-drop.gif)
+
+- Anki 导出，暗色主题下文字颜色更正。
+
 ## 0.16.6
 
-- 导出 Anki: 增加单词、句子发音，手动点击发音
-- 导出 html: 取消该功能
-- 修复 Youtube 空格键，切换生词和播放视频冲突
-- 增加 查词界面 可以调整宽度
+- 导出 Anki: 增加**单词、句子发音**。点击播放 [@Leonstar1025](https://github.com/wamich/personal-vocabulary/issues/2)
+- 导出 html: **取消**功能
+- 修复 Youtube **空格键**，切换生词和播放视频冲突 @wx:Bobby
+- 查词界面可以 **调整宽度**
 
 ## 0.16.5
 

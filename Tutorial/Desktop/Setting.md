@@ -58,7 +58,7 @@
       <div><b>快捷操作</b>:</div>
       <ul>
         <li>
-          <b>电脑端</b>: 采用 <kbd>Space</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>V</kbd> <kbd>Q</kbd> 作为主要快捷键
+          <b>电脑端</b>: 采用 <kbd>Space</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>F</kbd> <kbd>Q</kbd> 作为主要快捷键
           <img width="300" src="../../screenshot/popup/电脑端快捷操作.jpg" />
           <ul>
             <li>主要快捷键:
@@ -66,7 +66,7 @@
                 <li><b>A 键</b>: <b>查询单词</b>。在单词上按 <kbd>A</kbd> 键</li>
                 <li><b>S 键</b>: <b>翻译整句</b>。在单词所在句子上按 <kbd>S</kbd> 键</li>
                 <li><b>D 键</b>: <b>词法依存</b>。在单词所在句子上按 <kbd>D</kbd> 键</li>
-                <li><b>V 键</b>: <b>文章摘要</b>。在页面上按 <kbd>V</kbd> 键</li>
+                <li><b>F 键</b>: <b>网页摘要</b>。在页面上按 <kbd>F</kbd> 键</li>
                 <li><b>空格</b>: <b>增减生词/切换收藏</b>。出现单词释义或语句翻译时，按<kbd>Space</kbd>键</li>
               </ul>
             </li>

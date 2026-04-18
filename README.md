@@ -63,7 +63,7 @@
 ### 快捷键（默认）
 
 - <kbd>Alt</kbd> + <kbd>U</kbd> 启用插件。
-- <kbd>A</kbd> 键：查询单词；<kbd>S</kbd> 键：翻译整句；<kbd>D</kbd> 键：词法依存；<kbd>V</kbd> 键：文章摘要。
+- <kbd>A</kbd> 键：查询单词；<kbd>S</kbd> 键：翻译整句；<kbd>D</kbd> 键：词法依存；<kbd>F</kbd> 键：网页摘要。
 
 ![快捷键](./public/keyboard.png)
 

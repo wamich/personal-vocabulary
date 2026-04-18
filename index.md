@@ -31,18 +31,18 @@ hero:
 
 features:
   - icon: A
-    title: 查词
+    title: 单词
     details: "自动选择单词，直接展示释义"
     target: "111"
   - icon: S
-    title: 翻译/语法
-    details: "自动选择语句，进行机译、直译、语法分析"
+    title: 句子
+    details: "自动选择语句，翻译、语法分析"
   - icon: D
-    title: 词法
+    title: 依存
     details: "图形化展示，词汇之间依存关系"
-  - icon: V
-    title: 摘要
-    details: "利用大模型，自动分析文章摘要"
+  - icon: F
+    title: 网页
+    details: "利用大模型，提取网页信息"
   - icon:
       src: /ant-highlight.svg
     title: 高亮
