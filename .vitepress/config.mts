@@ -213,7 +213,8 @@ export default defineConfig({
         {
           text: "更新日志",
           items: [
-            { text: "v0.16", link: "/UpdateLog/" },
+            { text: "v26", link: "/UpdateLog/" },
+            { text: "v0.16", link: "/UpdateLog/0.16" },
             { text: "v0.15", link: "/UpdateLog/0.15" },
             { text: "v0.14", link: "/UpdateLog/0.14" },
             { text: "v0.13", link: "/UpdateLog/0.13" },
