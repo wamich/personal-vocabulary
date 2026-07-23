@@ -12,6 +12,7 @@
   "author": "wamich@126.com",
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
+    "@xmldom/xmldom": "0.9.9",
     "ant-design-vue": "4.2.6",
     "docx-preview": "^0.4.0",
     "epubjs": "^0.3.93",
@@ -33,5 +34,6 @@
     "vite": "^8.1.5",
     "vitepress": "1.6.4",
     "vue-tsc": "^3.3.8"
-  }
+  },
+  "packageManager": "pnpm@10.33.4+sha512.1c67b3b359b2d408119ba1ed289f34b8fc3c6873412bec6fd264fbdc82489e510fcbecb9ce9d22dae7f3b76269d8441046014bdca53b9979cd7a561ad631b800"
 }
