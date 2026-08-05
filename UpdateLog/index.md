@@ -1,8 +1,19 @@
-# v26.7
+# v26
 
 > ⚠️ 版本号格式更改为: X年.X月.X日
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
+
+## v26.8.5
+
+1. “直译”改为**一次性**渲染。  
+   不再进行流式渲染，各浏览器存在渲染差异bug。[@zengqiao111111](https://github.com/wamich/personal-vocabulary/issues/28)
+1. 更新**微软**翻译服务。  
+   此前旧微软翻译不可用，影响范围：内容页“机译”、选项页“生词语境”。[@Derron-z](https://github.com/wamich/personal-vocabulary/issues/31)
+1. 修复**内容页**“生词一览”按钮点击无效。[@Derron-z](https://github.com/wamich/personal-vocabulary/issues/31)
+1. 修复**选项页**“生词列表”菜单生词排序。[@Derron-z](https://github.com/wamich/personal-vocabulary/issues/31)
+1. 新增测试模型是否**连接**正常按钮。
+   ![测试连接](../screenshot/update/26.8/llm-test-conn.jpg#max-width-768px){data-zoomable}
 
 ## v26.7.23
 
