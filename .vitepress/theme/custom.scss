@@ -258,7 +258,7 @@ main.main {
   transform: unset !important;
 }
 
-$imgWidths: 250px, 290px, 300px, 360px, 375px, 480px, 512px, 540px, 600px, 720px;
+$imgWidths: 128px, 250px, 290px, 300px, 360px, 375px, 480px, 512px, 540px, 600px, 720px;
 @each $imgWidth in $imgWidths {
   img[src*="#max-width-#{$imgWidth}"] {
     max-width: min($imgWidth, 100%);

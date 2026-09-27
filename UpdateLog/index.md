@@ -4,21 +4,33 @@
 
 > ⚠️ 原 **gitee** 提示“**包含不适合公开的内容**”，故 **issue** (建议、bug) 迁移至 [github](https://github.com/wamich/personal-vocabulary)。
 
+## v26.9.27
+
+1. 增加
+
+   - **显式查词**: 鼠标放在**高亮生词**上时，不主动弹出查词界面，需要**按键**或**点击**进行查词。 [@Aasukammr](https://github.com/wamich/personal-vocabulary/issues/34)
+   ![显式查词](../screenshot/update/26.9/hand-lookup.jpg#max-width-290px)
+
+2. 修复:
+
+   - 机译选项无法同步问题
+
 ## v26.9.23
 
 1. 修复:
 
    - 主动加入生词时，缺失生词语境的问题
    - 机译全部完成时，加载中图标仍在旋转的问题
-   - 空格键增减生词时，在YouTube与播放冲突的bug
-   - popup弹出页 黑白名单逻辑bug
+   - 空格键增减生词时，在YouTube与播放冲突的问题
+   - popup弹出页 黑白名单逻辑问题
    - Safari下特殊网页无法运行问题
 
 2. 变化：
 
-   - 数据碎片: 增加手动清理功能
-   - 直译: PC端hover才展示、移动端直接展示
-   - 导出: 恢复生词语境、收藏语句html格式
+   - **数据碎片**: 「选项页」增加手动整理数据
+      ![数据碎片](../screenshot/update/26.9/data-uniq.jpg#max-width-128px)
+   - **导出**: 恢复生词语境、收藏语句html格式
+   - **直译**: PC端hover才展示、移动端直接展示
 
 3. 其他：
 
